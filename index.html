@@ -16,6 +16,35 @@
       height: 100%;
     }
 
+    .gradient-1 {
+      background: linear-gradient(180deg,
+          #fcb66e 0%,
+          /* Warm, sunlit orange-gold  */
+          #e17645 40%,
+          /* Deeper, amaro-inspired red-orange */
+          #995232 85%
+          /* Earthy brown, a hint of those playful tails */
+        );
+      height: 300px;
+      /* Adjust the height as you like */
+      width: 100%;
+      /* Make it cover its container */
+    }
+
+    .gradient-2 {
+      background: linear-gradient(to top,
+          #29283A 0%,
+          /* Deep, cool blue-gray as the darkest timeline */
+          #4F4067 50%,
+          /* Slightly warmer shade, a sliver of hope */
+          #E4C392 100%
+          /* Faint yellow-tan, the warmth of community */
+        );
+      height: 300px;
+      width: 100%;
+    }
+
+
     body {
       font-family: 'Playfair Display', serif;
     }
@@ -52,7 +81,7 @@
       text-align: center;
       background-color: rgba(0, 0, 0, 0.5);
       /* Semi-transparent background for readability */
-      padding: 20px;
+      padding: 20px 59px;
 
       max-width: 80%;
       /* Limiting text width for better readability */
@@ -69,7 +98,7 @@
 
 <body>
 
-  <section class="image-section" id="section1">
+  <section class="image-section gradient-1" id="section1">
     <div class="text-overlay">
       <p>Shared sunlit tinctures</p>
       <p>Of amaro-tinged queries</p>
@@ -77,7 +106,7 @@
     </div>
   </section>
 
-  <section class="image-section" id="section2">
+  <section class="image-section gradient-2" id="section2">
     <div class="text-overlay">
       <p>The darkest timeline</p>
       <p>Is the one we didn't meet</p>
